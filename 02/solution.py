@@ -30,6 +30,7 @@ def solution_1(file_name):
     data = calculate(data)
     return data[0]
 
+
 def solution_2(file_name):
     f = open(file_name)
     line = f.readline()
@@ -43,6 +44,7 @@ def solution_2(file_name):
                 return i*100+j
     print("FAIL")
 
+
 if __name__ == "__main__":
     print(calculate(read_data("1,0,0,0,99")))
     print(calculate(read_data("2,3,0,3,99")))
@@ -50,4 +52,3 @@ if __name__ == "__main__":
     print(calculate(read_data("1,1,1,4,99,5,6,0,99")))
     print("Solution 1: ", solution_1("input.txt"))
     print("Solution 2: ", solution_2("input.txt"))
-

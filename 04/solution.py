@@ -50,4 +50,3 @@ if __name__ == "__main__":
     print(good_password2(223450))
     print(good_password2(123444))
     print(count_passwords(134792, 675810))
-    # 915 too low
